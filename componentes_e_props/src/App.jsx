@@ -4,6 +4,7 @@ import HelloName from './components/HelloName';
 import HelloWorld from './components/HelloWorld';
 import Family from './components/Family';
 import ProfileClass from './components/ProfileClass';
+import Counter from './components/Counter';
 
 function App() {
   const members = [
@@ -34,6 +35,9 @@ function App() {
 
       <h2>5 - Componente de classe</h2>
       <ProfileClass name={'Joana'} age={24} job={'Motorista'} />
+
+      <h2>6- Componente com estado</h2>
+      <Counter />
     </>
   );
 }
