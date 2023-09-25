@@ -1,0 +1,4 @@
+Ex 5: Componente de Classe
+
+● Converta o componente de três propriedades em um componente de classe;
+● Utilize a mesma estrutura, só mude a forma de criação do mesmo;

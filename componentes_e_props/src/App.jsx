@@ -3,17 +3,18 @@ import Profile from './components/Profile';
 import HelloName from './components/HelloName';
 import HelloWorld from './components/HelloWorld';
 import Family from './components/Family';
+import ProfileClass from './components/ProfileClass';
 
 function App() {
   const members = [
     {
-      name: 'José', last_name: 'Santos', age: 28, job: 'Técnica em Enfermagem'
+      name: 'José', last_name: 'Santos', age: 28, job: 'Técnica em Enfermagem',
     },
     {
-      name: 'Mara', last_name: 'Vieira', age: 23, job: 'Técnica em Necrópsia'
+      name: 'Mara', last_name: 'Vieira', age: 23, job: 'Técnica em Necrópsia',
     },
     {
-      name: 'Geraldo', last_name: 'Aguiar', age: 25, job: 'Técnica em Nutrição'
+      name: 'Geraldo', last_name: 'Aguiar', age: 25, job: 'Técnica em Nutrição',
     },
   ];
   
@@ -30,6 +31,9 @@ function App() {
       
       <h2>4 - Composição de componentes</h2>
       <Family members={members} />
+
+      <h2>5 - Componente de classe</h2>
+      <ProfileClass name={'Joana'} age={24} job={'Motorista'} />
     </>
   );
 }
